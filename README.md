@@ -1,11 +1,9 @@
 # FocusView
-A free, browser-only tool that gives you a one-time link; when someone clicks it they choose to share their current tab, and you watch the live feed in a secure dashboard— Real-time visibility to keep people on task.
+A free, browser-only tool that gives you a one-time link; when someone clicks it they choose to share their current tab, and you watch the live feed in a secure dashboard—Real-time visibility to keep people on task.
 
-See `assistant/` for a small Node.js/WebRTC demo implementation.
-Run `npm install` then `npm start` inside that directory to try it locally.
-Run `npm test` there to verify the Node environment.
-You can host it on any Node-friendly service (e.g., Render or Railway).
-The generated share links are one-use and expire after ten minutes.
+The **docs/** directory contains a static version that works on GitHub Pages using the free PeerJS Cloud server. Open `docs/index.html` directly or enable GitHub Pages on that folder.
+
+A Node.js demo with Socket.io is still available in `assistant/` if you prefer running your own server. Run `npm test` there to check your Node environment.
 
 ---
 
