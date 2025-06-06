@@ -1,18 +1,11 @@
-# FocusView Demo
-This directory contains a small Node.js/WebRTC example. It lets you generate a temporary, one-use sharing link and watch a browser tab in real time.
+# FocusView
+A free, browser-only tool that gives you a one-time link; when someone clicks it they choose to share their current tab, and you watch the live feed in a secure dashboard—Real-time visibility to keep people on task.
 
-### Running locally
-1. Install dependencies with `npm install`.
-2. Start the server using `npm start`.
-3. Open `http://localhost:3000` in your browser.
-4. Click **Create Share Link** and send the URL to the person who will share.
 
-### Tests
-Run `npm test` to perform a tiny self-check that verifies Node is working. No dependencies are required for this.
 
-### Hosting
-Any Node-friendly host will work (Render, Railway or a small VPS). The server is stateless so it can easily run on inexpensive free tiers.
+By using FocusView you agree not to:
+1. Violate privacy laws or record users without consent.
+2. Employ the software for stalking, harassment, or other malicious activity.
+3. Deploy in jurisdictions where screen-sharing without notice is illegal.
 
-For GitHub Pages, use the `docs/` folder in the repository instead – it contains a purely client-side version powered by PeerJS Cloud.
-
-This demo is for educational purposes only; you must obtain consent from anyone whose screen you watch.
+[Breach of this policy terminates your license to use the software.]
