@@ -1,5 +1,6 @@
 body {
-    font-family: system-ui, sans-serif;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
     background: linear-gradient(#eef2f3, #d9e9f7);
     color: #333;
     text-align: center;
