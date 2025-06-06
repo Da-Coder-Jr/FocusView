@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <title>FocusView</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,18 +12,15 @@
       <button id="createBtn">Create Share Link</button>
       <p id="link"></p>
       <button id="copy" style="display:none;">Copy</button>
+      <p id="expire" style="font-size:0.9em; color:#555;"></p>
     </div>
     <div id="watch" style="display:none;">
       <video id="video" autoplay playsinline></video>
       <p id="info">If prompted, select a tab to share.</p>
     </div>
   </div>
-
-  <footer>
-    Share responsibly and only with consent. Links expire after ten minutes.
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.2/dist/peerjs.min.js"></script>
-  <script src="app.js"></script>
+  <footer>Share responsibly and only with consent.</footer>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="viewer.js"></script>
 </body>
 </html>
